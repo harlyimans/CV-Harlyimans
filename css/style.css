@@ -1,0 +1,306 @@
+/*-- Navbar--*/
+#navbar {
+  overflow: hidden;
+}
+#main-navbar .nav-item a {
+  border-bottom: 5px solid #198754;
+  text-transform: uppercase;
+}
+
+#main-navbar .nav-item a:hover,
+#main-navbar .active {
+  border-bottom-color: white;
+  transition: border-color 500ms;
+}
+
+/*-- Jumbotron --*/
+#jumbotron .carousel-item {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 90vh;
+  background-attachment: fixed;
+}
+
+#slide1 {
+  background: url(../img/anime\ 1.jpg);
+  width: 100%;
+  height: 600px;
+  padding-top: 150px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#slide2 {
+  background: url(../img/anime\ 2.jpg);
+  width: 100%;
+  height: 600px;
+  padding-top: 150px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#slide3 {
+  background: url(../img/anime\ 3.jpg);
+  width: 100%;
+  height: 600px;
+  padding-top: 150px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#jumbotron .dark-overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 2000px;
+}
+
+#slide1 h1 {
+  font-family: Blackadder ITC;
+  margin-top: 30vh;
+}
+
+#slide2 h1 {
+  font-family: Blackadder ITC;
+  margin-top: 30px;
+}
+
+#slide3 h1 {
+  font-family: Blackadder ITC;
+  margin-top: 30vh;
+}
+
+#jumbotron .carousel-item img {
+  margin-top: 100px;
+  margin-bottom: 0;
+  width: 150px;
+}
+/*-- about --*/
+#about .card-body img {
+  width: 150px;
+}
+
+#about i[class^="bi"] {
+  font-size: 1.5rem;
+}
+
+#about .col a {
+  color: gray;
+}
+
+#col1 a:hover {
+  color: navy;
+}
+
+#col2 a:hover {
+  color: deeppink;
+}
+
+#col3 a:hover {
+  color: cyan;
+}
+
+#col4 a:hover {
+  color: red;
+}
+/* school */
+#school .card-body img {
+  margin-top: -80px;
+  width: 150px;
+}
+
+/* Skills Carousel */
+#skill-detail .dark-overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 2000px;
+}
+
+#slide4 {
+  background: url(../img/full-image11.jpg);
+  width: 100%;
+  height: 600px;
+  padding-top: 150px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#slide5 {
+  background: url(../img/full-image8.jpg);
+  width: 100%;
+  height: 600px;
+  padding-top: 150px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#slide6 {
+  background: url(../img/full-image1.jpg);
+  width: 100%;
+  height: 600px;
+  padding-top: 150px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#skill-detail .carousel-item {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 85vh;
+  background-attachment: fixed;
+}
+
+#skill-detail .card {
+  background-color: transparent;
+  margin-top: 75px;
+  border: none;
+}
+
+#skill-detail .progress-title {
+  width: 100%;
+  height: auto;
+}
+
+#skill-detail .progress-title p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 20px;
+}
+
+#skill-detail .progress {
+  height: 20px;
+  background-color: black;
+  border-radius: 20px;
+  border: 1px solid #000;
+  box-shadow: 0 2px 2px #4f4c4c;
+  margin-bottom: 40px;
+  overflow: visible;
+  position: relative;
+}
+
+#skill-detail .progress .progress-bar {
+  border-radius: 20px;
+  border: 1px solid #000;
+  animation: animate-positive 2s;
+}
+
+#skill-detail .progress .progress-value {
+  width: 65px;
+  height: 25px;
+  line-height: 25px;
+  background-color: black;
+  font-size: 15px;
+  color: #fff;
+  border-radius: 20px;
+  border: 1px solid #000;
+  border-top: none;
+  box-shadow: 0 2px 2px #4f4c4c;
+  position: absolute;
+  bottom: -25px;
+  right: 60px;
+}
+
+@-webkit-keyframes animate-positive {
+  0% {
+    width: 0;
+  }
+}
+
+@keyframes animate-positive {
+  0% {
+    width: 0;
+  }
+}
+
+/* Portofolio */
+#portofolio i[class^="bi"] {
+  font-size: 1.25rem;
+}
+
+#portofolio .card img {
+  width: 100%;
+  transform: scale(1);
+  transition: all 0.3s ease-out;
+}
+
+#portofolio .card:hover img {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in;
+}
+
+#portofolio .card {
+  position: relative;
+  overflow: hidden;
+}
+
+#portofolio .img-title {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(5, 5, 5, 0.7);
+  top: 545px;
+  transition: all 0.5s ease-in;
+}
+
+#portofolio .img-title h3,
+#portofolio .img-title p {
+  margin-top: 30px;
+  color: #fff;
+  line-height: 2px;
+  position: relative;
+  top: 130px;
+  text-shadow: 1px 1px rgba(5, 5, 5, 0.5);
+}
+
+#portofolio .card:hover .img-title {
+  top: 0;
+  transition: all 0.5s ease-out;
+}
+
+/* Contact */
+
+
+/* Footer */
+#main-footer .col i[class^="bi"] {
+  font-size: 1.5rem;
+}
+
+#main-footer .col a {
+  color: gray;
+}
+
+#main-footer .facebook a:hover {
+  color: navy;
+}
+
+#main-footer .instagram a:hover {
+  color: deeppink;
+}
+
+#main-footer .twitter a:hover {
+  color: cyan;
+}
+
+#main-footer .linkedin a:hover {
+  color: darkblue;
+}
+/*-- Nonaktifkan XXL Breakpoint --*/
+@media (min-width: 1200px) {
+  .container {
+      max-width: 1140px;
+  }
+}
